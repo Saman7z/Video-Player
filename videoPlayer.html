@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Video | Player</title>
+</head>
+<body>
+    <div class="video-player-container">
+        <div class="video-section">
+            <video src="./assets/Sv(free-trailer).mp4"  poster="./assets/poster.png" id="video"></video>
+        </div>
+        <div class="play-range-and-timing">
+        <input type="range" min="0" max="100" step="0.1" value="0" id="progress">
+        <div class="time-stamp">00:00</div>
+    </div>
+    </div>
+    <div class="controls">
+        <div class="icons">
+        <div class="play-btn"><i class="fa fa-play fa-2x"></i></div>
+        <div class="stop-btn"><i class="fa fa-stop fa-2x"></i></div>
+        
+        <div class="full-screen-btn"><i class="fa fa-window-maximize fa-2x"></i></div>
+    </div>
+    <div class="power-btn"><i class="fa fa-power-off fa-2x"></i></div>
+        <div class="saman">Created By Saman Ghanbari</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
